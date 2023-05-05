@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		919E4AEF2A03B2AA0028D736 /* LinkedInCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919E4AEE2A03B2AA0028D736 /* LinkedInCloneApp.swift */; };
+		919E4AF12A03B2AA0028D736 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919E4AF02A03B2AA0028D736 /* ContentView.swift */; };
+		919E4AF32A03B2AC0028D736 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 919E4AF22A03B2AC0028D736 /* Assets.xcassets */; };
+		919E4AF62A03B2AC0028D736 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 919E4AF52A03B2AC0028D736 /* Preview Assets.xcassets */; };
+		919E4B002A03B2AC0028D736 /* LinkedInCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919E4AFF2A03B2AC0028D736 /* LinkedInCloneTests.swift */; };
+		919E4B0A2A03B2AC0028D736 /* LinkedInCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919E4B092A03B2AC0028D736 /* LinkedInCloneUITests.swift */; };
+		919E4B0C2A03B2AC0028D736 /* LinkedInCloneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919E4B0B2A03B2AC0028D736 /* LinkedInCloneUITestsLaunchTests.swift */; };
+		919E4B1A2A03BD8A0028D736 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919E4B192A03BD8A0028D736 /* SearchBar.swift */; };
+		919E4B1D2A03C2C00028D736 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919E4B1C2A03C2C00028D736 /* PostModel.swift */; };
+		919E4B1F2A03C2DC0028D736 /* NetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919E4B1E2A03C2DC0028D736 /* NetworkModel.swift */; };
+		919E4B212A03C56C0028D736 /* InvitationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919E4B202A03C56C0028D736 /* InvitationView.swift */; };
+		919E4B232A0425A30028D736 /* MyNetworkScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919E4B222A0425A30028D736 /* MyNetworkScreen.swift */; };
+		919E4B252A042E880028D736 /* PostCartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919E4B242A042E880028D736 /* PostCartView.swift */; };
+		919E4B272A0518C30028D736 /* ProfileAndPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919E4B262A0518C30028D736 /* ProfileAndPostView.swift */; };
+		919E4B292A051AD00028D736 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919E4B282A051AD00028D736 /* PostView.swift */; };
+		919E4B2B2A056BA50028D736 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919E4B2A2A056BA40028D736 /* HomeScreen.swift */; };
+		919E4B2D2A056DD70028D736 /* TabScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919E4B2C2A056DD70028D736 /* TabScreen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		919E4AFC2A03B2AC0028D736 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 919E4AE32A03B2AA0028D736 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 919E4AEA2A03B2AA0028D736;
+			remoteInfo = LinkedInClone;
+		};
+		919E4B062A03B2AC0028D736 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 919E4AE32A03B2AA0028D736 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 919E4AEA2A03B2AA0028D736;
+			remoteInfo = LinkedInClone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		919E4AEB2A03B2AA0028D736 /* LinkedInClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinkedInClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		919E4AEE2A03B2AA0028D736 /* LinkedInCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedInCloneApp.swift; sourceTree = "<group>"; };
+		919E4AF02A03B2AA0028D736 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		919E4AF22A03B2AC0028D736 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		919E4AF52A03B2AC0028D736 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		919E4AFB2A03B2AC0028D736 /* LinkedInCloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinkedInCloneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		919E4AFF2A03B2AC0028D736 /* LinkedInCloneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedInCloneTests.swift; sourceTree = "<group>"; };
+		919E4B052A03B2AC0028D736 /* LinkedInCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinkedInCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		919E4B092A03B2AC0028D736 /* LinkedInCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedInCloneUITests.swift; sourceTree = "<group>"; };
+		919E4B0B2A03B2AC0028D736 /* LinkedInCloneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedInCloneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		919E4B192A03BD8A0028D736 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		919E4B1C2A03C2C00028D736 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		919E4B1E2A03C2DC0028D736 /* NetworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModel.swift; sourceTree = "<group>"; };
+		919E4B202A03C56C0028D736 /* InvitationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvitationView.swift; sourceTree = "<group>"; };
+		919E4B222A0425A30028D736 /* MyNetworkScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNetworkScreen.swift; sourceTree = "<group>"; };
+		919E4B242A042E880028D736 /* PostCartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCartView.swift; sourceTree = "<group>"; };
+		919E4B262A0518C30028D736 /* ProfileAndPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileAndPostView.swift; sourceTree = "<group>"; };
+		919E4B282A051AD00028D736 /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		919E4B2A2A056BA40028D736 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		919E4B2C2A056DD70028D736 /* TabScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabScreen.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		919E4AE82A03B2AA0028D736 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		919E4AF82A03B2AC0028D736 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		919E4B022A03B2AC0028D736 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		919E4AE22A03B2AA0028D736 = {
+			isa = PBXGroup;
+			children = (
+				919E4AED2A03B2AA0028D736 /* LinkedInClone */,
+				919E4AFE2A03B2AC0028D736 /* LinkedInCloneTests */,
+				919E4B082A03B2AC0028D736 /* LinkedInCloneUITests */,
+				919E4AEC2A03B2AA0028D736 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		919E4AEC2A03B2AA0028D736 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				919E4AEB2A03B2AA0028D736 /* LinkedInClone.app */,
+				919E4AFB2A03B2AC0028D736 /* LinkedInCloneTests.xctest */,
+				919E4B052A03B2AC0028D736 /* LinkedInCloneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		919E4AED2A03B2AA0028D736 /* LinkedInClone */ = {
+			isa = PBXGroup;
+			children = (
+				919E4B1B2A03C2A60028D736 /* Models */,
+				919E4B182A03BCDF0028D736 /* Views */,
+				919E4AEE2A03B2AA0028D736 /* LinkedInCloneApp.swift */,
+				919E4AF02A03B2AA0028D736 /* ContentView.swift */,
+				919E4AF22A03B2AC0028D736 /* Assets.xcassets */,
+				919E4AF42A03B2AC0028D736 /* Preview Content */,
+			);
+			path = LinkedInClone;
+			sourceTree = "<group>";
+		};
+		919E4AF42A03B2AC0028D736 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				919E4AF52A03B2AC0028D736 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		919E4AFE2A03B2AC0028D736 /* LinkedInCloneTests */ = {
+			isa = PBXGroup;
+			children = (
+				919E4AFF2A03B2AC0028D736 /* LinkedInCloneTests.swift */,
+			);
+			path = LinkedInCloneTests;
+			sourceTree = "<group>";
+		};
+		919E4B082A03B2AC0028D736 /* LinkedInCloneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				919E4B092A03B2AC0028D736 /* LinkedInCloneUITests.swift */,
+				919E4B0B2A03B2AC0028D736 /* LinkedInCloneUITestsLaunchTests.swift */,
+			);
+			path = LinkedInCloneUITests;
+			sourceTree = "<group>";
+		};
+		919E4B182A03BCDF0028D736 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				919E4B192A03BD8A0028D736 /* SearchBar.swift */,
+				919E4B202A03C56C0028D736 /* InvitationView.swift */,
+				919E4B222A0425A30028D736 /* MyNetworkScreen.swift */,
+				919E4B242A042E880028D736 /* PostCartView.swift */,
+				919E4B262A0518C30028D736 /* ProfileAndPostView.swift */,
+				919E4B282A051AD00028D736 /* PostView.swift */,
+				919E4B2A2A056BA40028D736 /* HomeScreen.swift */,
+				919E4B2C2A056DD70028D736 /* TabScreen.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		919E4B1B2A03C2A60028D736 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				919E4B1C2A03C2C00028D736 /* PostModel.swift */,
+				919E4B1E2A03C2DC0028D736 /* NetworkModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		919E4AEA2A03B2AA0028D736 /* LinkedInClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 919E4B0F2A03B2AC0028D736 /* Build configuration list for PBXNativeTarget "LinkedInClone" */;
+			buildPhases = (
+				919E4AE72A03B2AA0028D736 /* Sources */,
+				919E4AE82A03B2AA0028D736 /* Frameworks */,
+				919E4AE92A03B2AA0028D736 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LinkedInClone;
+			productName = LinkedInClone;
+			productReference = 919E4AEB2A03B2AA0028D736 /* LinkedInClone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		919E4AFA2A03B2AC0028D736 /* LinkedInCloneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 919E4B122A03B2AC0028D736 /* Build configuration list for PBXNativeTarget "LinkedInCloneTests" */;
+			buildPhases = (
+				919E4AF72A03B2AC0028D736 /* Sources */,
+				919E4AF82A03B2AC0028D736 /* Frameworks */,
+				919E4AF92A03B2AC0028D736 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				919E4AFD2A03B2AC0028D736 /* PBXTargetDependency */,
+			);
+			name = LinkedInCloneTests;
+			productName = LinkedInCloneTests;
+			productReference = 919E4AFB2A03B2AC0028D736 /* LinkedInCloneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		919E4B042A03B2AC0028D736 /* LinkedInCloneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 919E4B152A03B2AC0028D736 /* Build configuration list for PBXNativeTarget "LinkedInCloneUITests" */;
+			buildPhases = (
+				919E4B012A03B2AC0028D736 /* Sources */,
+				919E4B022A03B2AC0028D736 /* Frameworks */,
+				919E4B032A03B2AC0028D736 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				919E4B072A03B2AC0028D736 /* PBXTargetDependency */,
+			);
+			name = LinkedInCloneUITests;
+			productName = LinkedInCloneUITests;
+			productReference = 919E4B052A03B2AC0028D736 /* LinkedInCloneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		919E4AE32A03B2AA0028D736 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					919E4AEA2A03B2AA0028D736 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					919E4AFA2A03B2AC0028D736 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 919E4AEA2A03B2AA0028D736;
+					};
+					919E4B042A03B2AC0028D736 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 919E4AEA2A03B2AA0028D736;
+					};
+				};
+			};
+			buildConfigurationList = 919E4AE62A03B2AA0028D736 /* Build configuration list for PBXProject "LinkedInClone" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 919E4AE22A03B2AA0028D736;
+			productRefGroup = 919E4AEC2A03B2AA0028D736 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				919E4AEA2A03B2AA0028D736 /* LinkedInClone */,
+				919E4AFA2A03B2AC0028D736 /* LinkedInCloneTests */,
+				919E4B042A03B2AC0028D736 /* LinkedInCloneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		919E4AE92A03B2AA0028D736 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				919E4AF62A03B2AC0028D736 /* Preview Assets.xcassets in Resources */,
+				919E4AF32A03B2AC0028D736 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		919E4AF92A03B2AC0028D736 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		919E4B032A03B2AC0028D736 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		919E4AE72A03B2AA0028D736 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				919E4B252A042E880028D736 /* PostCartView.swift in Sources */,
+				919E4B272A0518C30028D736 /* ProfileAndPostView.swift in Sources */,
+				919E4AF12A03B2AA0028D736 /* ContentView.swift in Sources */,
+				919E4B1D2A03C2C00028D736 /* PostModel.swift in Sources */,
+				919E4B2B2A056BA50028D736 /* HomeScreen.swift in Sources */,
+				919E4B2D2A056DD70028D736 /* TabScreen.swift in Sources */,
+				919E4AEF2A03B2AA0028D736 /* LinkedInCloneApp.swift in Sources */,
+				919E4B1F2A03C2DC0028D736 /* NetworkModel.swift in Sources */,
+				919E4B1A2A03BD8A0028D736 /* SearchBar.swift in Sources */,
+				919E4B212A03C56C0028D736 /* InvitationView.swift in Sources */,
+				919E4B292A051AD00028D736 /* PostView.swift in Sources */,
+				919E4B232A0425A30028D736 /* MyNetworkScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		919E4AF72A03B2AC0028D736 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				919E4B002A03B2AC0028D736 /* LinkedInCloneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		919E4B012A03B2AC0028D736 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				919E4B0C2A03B2AC0028D736 /* LinkedInCloneUITestsLaunchTests.swift in Sources */,
+				919E4B0A2A03B2AC0028D736 /* LinkedInCloneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		919E4AFD2A03B2AC0028D736 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 919E4AEA2A03B2AA0028D736 /* LinkedInClone */;
+			targetProxy = 919E4AFC2A03B2AC0028D736 /* PBXContainerItemProxy */;
+		};
+		919E4B072A03B2AC0028D736 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 919E4AEA2A03B2AA0028D736 /* LinkedInClone */;
+			targetProxy = 919E4B062A03B2AC0028D736 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		919E4B0D2A03B2AC0028D736 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		919E4B0E2A03B2AC0028D736 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		919E4B102A03B2AC0028D736 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LinkedInClone/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PCL-Health.LinkedInClone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		919E4B112A03B2AC0028D736 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LinkedInClone/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PCL-Health.LinkedInClone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		919E4B132A03B2AC0028D736 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PCL-Health.LinkedInCloneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LinkedInClone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LinkedInClone";
+			};
+			name = Debug;
+		};
+		919E4B142A03B2AC0028D736 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PCL-Health.LinkedInCloneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LinkedInClone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LinkedInClone";
+			};
+			name = Release;
+		};
+		919E4B162A03B2AC0028D736 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PCL-Health.LinkedInCloneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LinkedInClone;
+			};
+			name = Debug;
+		};
+		919E4B172A03B2AC0028D736 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PCL-Health.LinkedInCloneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LinkedInClone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		919E4AE62A03B2AA0028D736 /* Build configuration list for PBXProject "LinkedInClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				919E4B0D2A03B2AC0028D736 /* Debug */,
+				919E4B0E2A03B2AC0028D736 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		919E4B0F2A03B2AC0028D736 /* Build configuration list for PBXNativeTarget "LinkedInClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				919E4B102A03B2AC0028D736 /* Debug */,
+				919E4B112A03B2AC0028D736 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		919E4B122A03B2AC0028D736 /* Build configuration list for PBXNativeTarget "LinkedInCloneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				919E4B132A03B2AC0028D736 /* Debug */,
+				919E4B142A03B2AC0028D736 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		919E4B152A03B2AC0028D736 /* Build configuration list for PBXNativeTarget "LinkedInCloneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				919E4B162A03B2AC0028D736 /* Debug */,
+				919E4B172A03B2AC0028D736 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 919E4AE32A03B2AA0028D736 /* Project object */;
+}
