@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91A0EBC02B4A84F400BE5870 /* HarshCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A0EBBF2B4A84F400BE5870 /* HarshCardApp.swift */; };
+		91A0EBC22B4A84F400BE5870 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A0EBC12B4A84F400BE5870 /* ContentView.swift */; };
+		91A0EBC42B4A84F700BE5870 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91A0EBC32B4A84F700BE5870 /* Assets.xcassets */; };
+		91A0EBC72B4A84F700BE5870 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91A0EBC62B4A84F700BE5870 /* Preview Assets.xcassets */; };
+		91A0EBD12B4A84F700BE5870 /* HarshCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A0EBD02B4A84F700BE5870 /* HarshCardTests.swift */; };
+		91A0EBDB2B4A84F700BE5870 /* HarshCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A0EBDA2B4A84F700BE5870 /* HarshCardUITests.swift */; };
+		91A0EBDD2B4A84F700BE5870 /* HarshCardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A0EBDC2B4A84F700BE5870 /* HarshCardUITestsLaunchTests.swift */; };
+		91A0EBEB2B4A882200BE5870 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91A0EBEA2B4A882200BE5870 /* Pacifico-Regular.ttf */; };
+		91A0EBEE2B4A971B00BE5870 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A0EBED2B4A971B00BE5870 /* InfoView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91A0EBCD2B4A84F700BE5870 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91A0EBB42B4A84F400BE5870 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91A0EBBB2B4A84F400BE5870;
+			remoteInfo = HarshCard;
+		};
+		91A0EBD72B4A84F700BE5870 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91A0EBB42B4A84F400BE5870 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91A0EBBB2B4A84F400BE5870;
+			remoteInfo = HarshCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		91A0EBBC2B4A84F400BE5870 /* HarshCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HarshCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91A0EBBF2B4A84F400BE5870 /* HarshCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarshCardApp.swift; sourceTree = "<group>"; };
+		91A0EBC12B4A84F400BE5870 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		91A0EBC32B4A84F700BE5870 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91A0EBC62B4A84F700BE5870 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		91A0EBCC2B4A84F700BE5870 /* HarshCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HarshCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91A0EBD02B4A84F700BE5870 /* HarshCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarshCardTests.swift; sourceTree = "<group>"; };
+		91A0EBD62B4A84F700BE5870 /* HarshCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HarshCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91A0EBDA2B4A84F700BE5870 /* HarshCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarshCardUITests.swift; sourceTree = "<group>"; };
+		91A0EBDC2B4A84F700BE5870 /* HarshCardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarshCardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		91A0EBEA2B4A882200BE5870 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pacifico-Regular.ttf"; path = "../../../../../Downloads/Pacifico/Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		91A0EBEC2B4A897500BE5870 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		91A0EBED2B4A971B00BE5870 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91A0EBB92B4A84F400BE5870 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91A0EBC92B4A84F700BE5870 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91A0EBD32B4A84F700BE5870 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91A0EBB32B4A84F400BE5870 = {
+			isa = PBXGroup;
+			children = (
+				91A0EBBE2B4A84F400BE5870 /* HarshCard */,
+				91A0EBCF2B4A84F700BE5870 /* HarshCardTests */,
+				91A0EBD92B4A84F700BE5870 /* HarshCardUITests */,
+				91A0EBBD2B4A84F400BE5870 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91A0EBBD2B4A84F400BE5870 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91A0EBBC2B4A84F400BE5870 /* HarshCard.app */,
+				91A0EBCC2B4A84F700BE5870 /* HarshCardTests.xctest */,
+				91A0EBD62B4A84F700BE5870 /* HarshCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91A0EBBE2B4A84F400BE5870 /* HarshCard */ = {
+			isa = PBXGroup;
+			children = (
+				91A0EBEC2B4A897500BE5870 /* Info.plist */,
+				91A0EBE92B4A877600BE5870 /* fonts */,
+				91A0EBBF2B4A84F400BE5870 /* HarshCardApp.swift */,
+				91A0EBC12B4A84F400BE5870 /* ContentView.swift */,
+				91A0EBED2B4A971B00BE5870 /* InfoView.swift */,
+				91A0EBC32B4A84F700BE5870 /* Assets.xcassets */,
+				91A0EBC52B4A84F700BE5870 /* Preview Content */,
+			);
+			path = HarshCard;
+			sourceTree = "<group>";
+		};
+		91A0EBC52B4A84F700BE5870 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				91A0EBC62B4A84F700BE5870 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		91A0EBCF2B4A84F700BE5870 /* HarshCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				91A0EBD02B4A84F700BE5870 /* HarshCardTests.swift */,
+			);
+			path = HarshCardTests;
+			sourceTree = "<group>";
+		};
+		91A0EBD92B4A84F700BE5870 /* HarshCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				91A0EBDA2B4A84F700BE5870 /* HarshCardUITests.swift */,
+				91A0EBDC2B4A84F700BE5870 /* HarshCardUITestsLaunchTests.swift */,
+			);
+			path = HarshCardUITests;
+			sourceTree = "<group>";
+		};
+		91A0EBE92B4A877600BE5870 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				91A0EBEA2B4A882200BE5870 /* Pacifico-Regular.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91A0EBBB2B4A84F400BE5870 /* HarshCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91A0EBE02B4A84F700BE5870 /* Build configuration list for PBXNativeTarget "HarshCard" */;
+			buildPhases = (
+				91A0EBB82B4A84F400BE5870 /* Sources */,
+				91A0EBB92B4A84F400BE5870 /* Frameworks */,
+				91A0EBBA2B4A84F400BE5870 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HarshCard;
+			productName = HarshCard;
+			productReference = 91A0EBBC2B4A84F400BE5870 /* HarshCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91A0EBCB2B4A84F700BE5870 /* HarshCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91A0EBE32B4A84F700BE5870 /* Build configuration list for PBXNativeTarget "HarshCardTests" */;
+			buildPhases = (
+				91A0EBC82B4A84F700BE5870 /* Sources */,
+				91A0EBC92B4A84F700BE5870 /* Frameworks */,
+				91A0EBCA2B4A84F700BE5870 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91A0EBCE2B4A84F700BE5870 /* PBXTargetDependency */,
+			);
+			name = HarshCardTests;
+			productName = HarshCardTests;
+			productReference = 91A0EBCC2B4A84F700BE5870 /* HarshCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		91A0EBD52B4A84F700BE5870 /* HarshCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91A0EBE62B4A84F700BE5870 /* Build configuration list for PBXNativeTarget "HarshCardUITests" */;
+			buildPhases = (
+				91A0EBD22B4A84F700BE5870 /* Sources */,
+				91A0EBD32B4A84F700BE5870 /* Frameworks */,
+				91A0EBD42B4A84F700BE5870 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91A0EBD82B4A84F700BE5870 /* PBXTargetDependency */,
+			);
+			name = HarshCardUITests;
+			productName = HarshCardUITests;
+			productReference = 91A0EBD62B4A84F700BE5870 /* HarshCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91A0EBB42B4A84F400BE5870 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					91A0EBBB2B4A84F400BE5870 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					91A0EBCB2B4A84F700BE5870 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 91A0EBBB2B4A84F400BE5870;
+					};
+					91A0EBD52B4A84F700BE5870 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 91A0EBBB2B4A84F400BE5870;
+					};
+				};
+			};
+			buildConfigurationList = 91A0EBB72B4A84F400BE5870 /* Build configuration list for PBXProject "HarshCard" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91A0EBB32B4A84F400BE5870;
+			productRefGroup = 91A0EBBD2B4A84F400BE5870 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91A0EBBB2B4A84F400BE5870 /* HarshCard */,
+				91A0EBCB2B4A84F700BE5870 /* HarshCardTests */,
+				91A0EBD52B4A84F700BE5870 /* HarshCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91A0EBBA2B4A84F400BE5870 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91A0EBEB2B4A882200BE5870 /* Pacifico-Regular.ttf in Resources */,
+				91A0EBC72B4A84F700BE5870 /* Preview Assets.xcassets in Resources */,
+				91A0EBC42B4A84F700BE5870 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91A0EBCA2B4A84F700BE5870 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91A0EBD42B4A84F700BE5870 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91A0EBB82B4A84F400BE5870 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91A0EBC22B4A84F400BE5870 /* ContentView.swift in Sources */,
+				91A0EBEE2B4A971B00BE5870 /* InfoView.swift in Sources */,
+				91A0EBC02B4A84F400BE5870 /* HarshCardApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91A0EBC82B4A84F700BE5870 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91A0EBD12B4A84F700BE5870 /* HarshCardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91A0EBD22B4A84F700BE5870 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91A0EBDB2B4A84F700BE5870 /* HarshCardUITests.swift in Sources */,
+				91A0EBDD2B4A84F700BE5870 /* HarshCardUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91A0EBCE2B4A84F700BE5870 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91A0EBBB2B4A84F400BE5870 /* HarshCard */;
+			targetProxy = 91A0EBCD2B4A84F700BE5870 /* PBXContainerItemProxy */;
+		};
+		91A0EBD82B4A84F700BE5870 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91A0EBBB2B4A84F400BE5870 /* HarshCard */;
+			targetProxy = 91A0EBD72B4A84F700BE5870 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		91A0EBDE2B4A84F700BE5870 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		91A0EBDF2B4A84F700BE5870 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91A0EBE12B4A84F700BE5870 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HarshCard/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HarshCard/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KitLabs.HarshCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91A0EBE22B4A84F700BE5870 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HarshCard/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HarshCard/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KitLabs.HarshCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		91A0EBE42B4A84F700BE5870 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KitLabs.HarshCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HarshCard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HarshCard";
+			};
+			name = Debug;
+		};
+		91A0EBE52B4A84F700BE5870 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KitLabs.HarshCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HarshCard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HarshCard";
+			};
+			name = Release;
+		};
+		91A0EBE72B4A84F700BE5870 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KitLabs.HarshCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HarshCard;
+			};
+			name = Debug;
+		};
+		91A0EBE82B4A84F700BE5870 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KitLabs.HarshCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HarshCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91A0EBB72B4A84F400BE5870 /* Build configuration list for PBXProject "HarshCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91A0EBDE2B4A84F700BE5870 /* Debug */,
+				91A0EBDF2B4A84F700BE5870 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91A0EBE02B4A84F700BE5870 /* Build configuration list for PBXNativeTarget "HarshCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91A0EBE12B4A84F700BE5870 /* Debug */,
+				91A0EBE22B4A84F700BE5870 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91A0EBE32B4A84F700BE5870 /* Build configuration list for PBXNativeTarget "HarshCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91A0EBE42B4A84F700BE5870 /* Debug */,
+				91A0EBE52B4A84F700BE5870 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91A0EBE62B4A84F700BE5870 /* Build configuration list for PBXNativeTarget "HarshCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91A0EBE72B4A84F700BE5870 /* Debug */,
+				91A0EBE82B4A84F700BE5870 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91A0EBB42B4A84F400BE5870 /* Project object */;
+}
